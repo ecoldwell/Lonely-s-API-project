@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Emma Coldwell week 5</title>
+	<link rel="stylesheet" href="main.js">
+	<link rel="stylesheet" href="style.css">
+
+	
+
+
+
+
+<!-- 	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.0/handlebars.js"></script>
+
+	<script id="bookTemplate" type="x-handlebars-template">
+	<\
+	<section class="bookResults">
+	<h4>{{title}}</h4>
+	<p>{{author}}</p>
+	<p>{{description}}</p>
+	<p>{{link}}</p>
+	</section>
+	</script>
+ -->
+ </head>
+<body>
+	<header>
+		<div class=wrapper>
+			<h1>Lonely's</h1>
+			<p>You are lonely</p>
+		</wrapper>
+	</header>
+	<!-- <form id="formOne" action= ""> -->
+	<section class="first" id="first">
+		<div class="wrapper">
+			<p> what would you like to do?</p>
+			<div class="mainChoice">
+				<form action=''>
+				<fieldset class="activity">
+					<div class="divCrazy">
+						<label for="listen">I am lonely and I want to listen to not lonely music
+						</label>	
+						<input type="radio" name="activityOption" id="listen" value="listen"> 
+				
+						<label for="read">I am lonely and I want to read maybe lonely things
+						</label>	
+						<input type="radio" name="activityOption" id="read" value="read">
+				
+						<label for = "outside">I am lonely and I want to go outside</label>
+
+						<input type="radio" name="activityOption" id="outside" value="outside">
+						</div>
+					
+					<div class ="submitFirst">
+					<a href="#choice">
+						<input type="submit" name="buttonOne" class="submitOne" value="Lonely Activity!">
+					</a>
+					</div>
+				</fieldset>
+
+			</form>
+			</div>
+		</div>
+	</section>
+	<section class="secondRead" id="third">
+		<div class="wrapper">
+			<div class="container">
+				<h2 class = "kind">Hey! Book's are great! Good Choice!</h2>
+				<p>What kind of book genre will help sooth/help your lonely soul</p>
+				<div class="selectionRows">
+					<form id="formTwo">
+					<fieldset>
+					<label for="esp">Espionage</label>
+					<input type="radio" name="variable" id="esp" value="esp" class="bookz">
+					<label for="crime">Crime and Punishment</label>
+					<input type="radio" name="variable" id="crime" value="crime" class="bookz">
+					<label for="political">Political</label>
+					<input type="radio" name="variable" id="political" value="political" class="bookz">
+					<label for="Manga">Manga</label>
+					<input type="radio" name="variable" id="manga" value="manga" class="bookz">
+					<label for="humor">Humor</label>
+					<input type="radio" name="variable" id="humor" value="humor" class="bookz">
+					<a href="#choiceTwo">
+						<input type="submit" name="buttonTwo" class="submitTwo" value="Get ready for some great books!!">
+					</a>
+					
+				
+ 					</fieldset>
+ 					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="blank" id="blank">
+	<div class="wrapper">
+		<div class="dave" id="dave">
+			
+		</div>
+		</div>
+	</section>
+
+	<section class="goOutside" id="goOutside">
+		<div class="wrapper">
+			<h2>Then just go outside! </h2>
+			<p>You got it, go outside, go do your thing, see those birds, smell that sweet sweet smell of the beautiful, luxurious leaves and plants and let their powers overwhelm you. Maybe you'll be lonely when you get back home, but, you went outside.</p>
+		</div>
+	</section>
+	
+<!-- 	<section class="second read" id="second">
+		<div class="wrapper">
+			<p>What would you like to read?</p>
+			<div class="readForm">
+				<form action="">
+				<feildset class="secondRead">
+					<label for="Book">I am lonely I have time to read a book</label>
+					<input type="radio" name="variable" id="book" value="book">
+					<label for="News">I am lonely but I don't care about books</label>
+					<input type="radio" name="variable" id="news" value="news">
+					<label for="Fun">I am lonely and only want to read fun things</label>
+					<input type="radio" name="variable" id="fun" value="fun"> 
+				</form>
+				</feildset>
+			</div>
+		</div>
+	</section> -->
+<!-- 	<section class="nytAnswer" id="nytAnswer">
+		<div class="wrapper">
+			<h3 class="bookTitle">{ title }</h3>
+			<p class="author">{ author }</p>
+			<p class="description">{ description }</p>
+			<p><a href="#">{ amazon link }</a></p>
+		</div>
+	</section> -->
+
+	<!-- this is if the user selects the listen section -->
+	<section class="listenSongs" id="iframe">
+	
+	    <!-- Additional required wrapper -->
+	    
+		<!-- all of these playlists need to become variables in the script that are randomly selected  and the user van swipe them back and forth between the different ones-->
+		<div class="soundcloud">
+		<!-- Slider main container -->
+	
+		<div class="psychic">
+		<iframe id="playlist one" width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/5919317&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+		<p>Psychic Handshake</p>
+		<div class="nextOne" id="nextOne">
+			
+			<input type="submit" name="buttonThree" value="nextOne" id="next" placeholder="next" class="buttonThree">
+			</div>
+		</div>
+	
+		
+		
+
+		
+
+		<div class= "te">
+		<iframe id="playlist two" width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/2411218&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+		<p>Telephone Explosion</p>
+		<div class="nextTwo" id="nextTwo">
+			<input type="submit" name="buttonThree" value="nextTwo" id="next" placeholder="next" class="buttonThree">
+			</div>
+		</div>
+
+
+
+		
+		<div class="hockey">
+		<iframe id="playlist three" width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/9007611&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+		<p>Hockeydad Records</p>
+		<div class="nextThree" id="nextThree">
+			<input type="submit" name="buttonThree" value="nextThree" id="next" placeholder="next" class="buttonThree">
+			</div>
+		</div>
+	
+	
+
+	
+		<div class="egg">
+		<iframe id="playlist four" width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/114765750&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+		<p>Egg Paper Factory</p>
+		<div class="nextFour" id="nextFour">
+			<input type="submit" name="buttonThree" value="nextFour" id="next" placeholder="next" class="buttonThree">
+			</div>
+		</div>
+		
+	
+
+		
+		<div class="craft">
+		<iframe id="playlist five" width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/134307659&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+		<p>Craft Singles</p>
+		<div class="nextFive" id="nextFive">
+			<input type="submit" name="buttonThree" value="nextFive" id="next" placeholder="next" class="buttonThree">
+		
+		</div>
+		</div>
+	
+	
+
+		<div class="rr">
+		 <iframe id= "playlist six" width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/1078690&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+		 <p>Relapse Records</p>
+		 
+		 <div class="nextSix" id="nextSix">
+		 	<input type="submit" name="buttonThree" value="nextSix" id="next" placeholder="next" class="buttonThree">
+	
+		 </div>
+		 </div>
+	
+		
+		 </div>
+	</section>
+	<!-- this section only appears if the user selected read, books,  -->
+
+	<main id ="content">
+	<section id = "bookResults">
+		
+	</section>
+	</main>
+
+	<footer>
+	<div class = "wrapper">
+		<p>Lonely's Copyright Emma Coldwell</p>
+	</div>
+	</footer>
+					<!-- <div class="boxOne box">
+						<img src="placeholder.png" alt="book picture" class="bookImage">
+						<h3 class="title">{ title one }</h3>
+						<p class="info">{ info }</p>
+						<p class="date">{ release date }</p>
+					</div>
+					<div class="boxTwo box">
+						<img src="placeholder.png" alt="book picture" class="bookImage">
+						<h3 class="title">{ title one }</h3>
+						<p class="info">{ info }</p>
+						<p class="date">{ release date }</p>
+					</div>
+					<div class="boxTwo box">
+						<img src="placeholder.png" alt="book picture" class="bookImage">
+						<h3 class="title">{ title one }</h3>
+						<p class="info">{ info }</p>
+						<p class="date">{ release date }</p>
+					</div>
+ <-->	
+
+	
+
+
+
+	<script src="soundcloud.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="main.js"></script>	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/1.7.2/jquery.smooth-scroll.min.js"></script>
+
+
+
+
+</body>
+</html>

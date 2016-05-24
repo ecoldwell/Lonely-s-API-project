@@ -1,0 +1,342 @@
+html {
+	font-size: 62.5%;
+	background-image: linear-gradient( 0deg, rgba(255,255,255,0.9), rgba(56,58,59,0.3) );
+}
+
+body {
+	
+	text-align:center;
+	font-family: Helvetica;
+	font-weight:lighter;
+	letter-spacing:0.05em;
+	max-width:1280px;
+	font-size:2.5rem;
+	margin:0 auto;
+	background-image: linear-gradient( 0deg, rgba(255,255,255,0.9), rgba(56,58,59,0.3) );
+	
+}
+
+p {
+	text-shadow: 3px 3px 6px rgba(184, 190, 199, 0.8), 3px 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+.wrapper {
+	// background-color: #FFFAFA;
+	max-width: 1000px;
+	text-align: center;
+	margin:0 auto;
+	
+
+}
+
+header {
+	background-image: url(mainHeader.jpg);
+	background-position: center center;
+	background-attachment:fixed;
+	background-size: cover;
+	height: 100vh;
+}
+header .wrapper {
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	height:100px;
+	margin: 0 auto;
+
+
+
+}
+header h1 {
+	padding-top:50%;
+	letter-spacing: 0.07em;
+	font-size:6em;
+	color:white;
+	text-shadow: 3px 3px 6px rgba(184, 190, 199, 0.8), 3px 3px 6px rgba(0, 0, 0, 0.5);
+	text-transform: uppercase;
+}
+
+header p {
+	font-size:2.5em;
+	color:rgb(30, 30, 30);
+	text-transform: uppercase;
+	text-shadow: 3px 3px 6px rgba(184, 190, 199, 0.8), 3px 3px 6px rgba(0, 0, 0, 0.5);
+}
+// styling the inputs! {
+
+input[type="radio"] {
+	display:none;
+}
+
+input[type=text] {
+	border:none;
+}
+
+
+form {
+	border: none;
+	display:flex;
+	flex-direction:row;
+	width:100%;
+}
+fieldset {
+	border: none !important;
+	padding:0;
+	margin:0;
+	width:100%;
+	display:flex;
+	flex-direction: row;
+	align-items:center;
+	justify-content: space-around;
+	label {
+		margin: 10px auto;
+		display:flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items:center;
+		justify-content: center;
+		width: 27%;
+		padding:0;
+		color:rgba(56, 58, 59, 0.8);
+		height:25vh;
+		transition: all 0.7s ease;
+		padding: 10px;
+		font-weight:lighter;
+		text-transform: uppercase;
+		text-shadow:3px 3px 6px rgba(184, 190, 199, 0.8), 3px 3px 6px rgba(0, 0, 0, 0.5);
+
+	}
+}
+		label:hover,
+		label:focus {
+		// border: 1px solid black;
+		background-color: rgba(0,0,0,0.3);
+		height:25vh;
+		transform: scale(1.2);
+		color:white;
+	}
+
+	
+	input[type=submit] {
+	     padding: 30px;
+	     text-align: center;
+	     color: white;
+	     background: rgba(0,0,0,0.6);
+	     text-shadow: 3px 3px 6px rgba(184, 190, 199, 0.8), 3px 3px 6px rgba(0, 0, 0, 0.5);
+	     font-size: 1.3em;
+	     display: flex;
+	     flex-direction: row;
+	     justify-content: center;
+	     margin: auto;
+	     outline:none;
+	     border:none;
+	     font-weight:lighter;
+	     text-transform:uppercase;
+	     transition: all 0.3s ease;
+
+
+	     	
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	input[type="submit"]:focus,
+	input[type="submit"]:hover {
+		outline: none;
+		border:none;
+		background-color: rgba(0,0,0,0.3);
+		transform: scale(1.2);
+
+	}
+
+
+
+
+
+// this is the first section!!!
+
+.first {
+	background-image: linear-gradient( 0deg, rgba(255,255,255,0.9), rgba(56,58,59,0.9) ), url(optionTwo.jpg);
+	background-size: cover;
+	background-position: center center;
+	height:80vh;
+}
+.first .wrapper {
+	padding-top:3%;
+	padding-bottom: 3%;
+
+}
+
+.first p {
+	text-transform: uppercase;
+	color:rgba(230, 230, 230, 0.8);
+	font-size:1.5em;
+	letter-spacing: 0.05em;
+	padding-left:100px;
+	padding-right: 100px;
+	font-weight: lighter;
+}
+.divCrazy{
+	display:flex;
+	flex-direction: row;
+	align-items:center;
+	justify-content: space-around;
+	padding:2%;
+	
+}
+// if the user clicks read
+.secondRead {
+	background-image: linear-gradient( 0deg, rgba(255,255,255,0.9), rgba(56,58,59,0.3) );
+}
+
+.secondRead .wrapper {
+	padding-left:100px;
+	padding-right:100px;
+	padding-top:5%;
+	padding-bottom:5%;
+}
+.secondRead .wrapper h2 {
+	margin-top:0px;
+	padding-top:5%;
+	font-weight:lighter;
+	text-transform:uppercase;
+	letter-spacing: 0.07em;
+color: #191970;
+text-shadow: 3px 3px 6px rgba(184, 190, 199, 0.8), 3px 3px 6px rgba(0, 0, 0, 0.5);
+
+	}
+
+
+.secondRead .wrapper p {
+	color:white;
+	letter-spacing: 0.07em;
+	text-transform: uppercase;
+	text-shadow: 3px 3px 6px rgba(184, 190, 199, 0.8), 3px 3px 6px rgba(0, 0, 0, 0.5);
+
+}
+
+// if they choose reading and got to dave the minion 
+
+.blank .dave{
+	// padding:5%;
+	margin:0;
+	// background-image: linear-gradient( 0deg, rgba(255,255,255,0.2), rgba(56,58,59,0.9) );
+	font-weight: lighter;
+	// padding-bottom:5%;
+
+
+
+		h2 {
+			color: #191970;
+			text-transform: uppercase;
+			font-weight: lighter;
+			text-shadow: 3px 3px 6px rgba(184, 190, 199, 0.8), 3px 3px 6px rgba(0, 0, 0, 0.5);
+		}
+
+		h3 {
+			color: #191970;
+			text-transform: uppercase;
+			font-weight: lighter;
+			text-shadow: 3px 3px 6px rgba(184, 190, 199, 0.8), 3px 3px 6px rgba(0, 0, 0, 0.5);
+		}
+
+		p {
+			color:#FFFAFA
+		}
+}
+
+
+
+.listenSongs {
+	display:none;
+}
+
+// the listen option!
+
+
+
+.psychic {
+	display: display;
+}
+.te {
+	display:none;
+}
+
+.hockey {
+	display:none;
+}
+
+.egg {
+	display:none;
+}
+
+.craft {
+	display:none;
+}
+.rr {
+	display:none;
+}
+.secondRead {
+	display:none;
+}
+
+.goOutside {
+	display:none;
+}
+
+.goOutside {
+	background-image: linear-gradient( 0deg, rgba(255,255,255,0.9), rgba(56,58,59,0.3) ), url(mainHeader.jpg);
+	background-position: center center;
+	background-attachment:fixed;
+	background-size: cover;
+	height: 150vh;
+
+}
+
+// .goOutside .wrapper {
+// 	padding: 5%;
+// }
+
+.goOutside h2{
+	padding-top:20%;
+	text-transform: uppercase;
+	color: #FFFAFA;
+	font-size: 2.5em;
+	padding-right:5%;
+	padding-left: 5%;
+	text-transform: uppercase;
+	font-weight: lighter;
+	text-shadow: 3px 3px 6px rgba(184, 190, 199, 0.8), 3px 3px 6px rgba(0, 0, 0, 0.5);
+
+}
+
+.goOutside p {
+	text-transform: uppercase;
+	font-weight: normal;
+	padding-right:5%;
+	padding-left: 5%;
+	line-height:1.3em;
+	font-size: 1.5em;
+	color:#191970;
+	text-transform: uppercase;
+	text-shadow: 3px 3px 6px rgba(184, 190, 199, 0.8), 3px 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+	background-color:rgb(30, 30, 30);
+	height:10vh;
+
+}
+
+footer .wrapper p {
+	color: #FFFAFA;
+	// padding-left: 50px;
+	font-size: 0.5em;
+	font-weight:lighter;
+	padding-top:20px;
+}
+
+
+
